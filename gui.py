@@ -45,7 +45,7 @@ def LOGIN():
 
 
     def continue_button_clicked():
-        f=open(relative_to_assets("details.txt"), "w")
+        f=open("details.txt", "w")
         movie=entry_3.get()
         if movie=="": 
             messagebox.showerror("Error", "Please fill all the details")
